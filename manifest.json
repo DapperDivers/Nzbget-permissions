@@ -2,19 +2,16 @@
   "main": "main.sh",
   "name": "Permissions",
   "kind": "POST-PROCESSING",
-  "displayName": "",
-  "version": "2.0.0",
+  "displayName": "Permissions",
+  "version": "1.0.0",
   "nzbgetMinVersion": "23",
-  "author": "John Doe",
+  "author": "Derek Mackley",
   "license": "GNU",
-  "about": "Sends E-Mail notification.",
+  "about": "Modifies Permissions",
   "queueEvents": "",
   "taskTime": "",
-  "requirements": [
-    "This script requires Python3.8 to be installed on your system."
-  ],
   "description": [
-    "This script sends E-Mail notification when the job is done."
+    "This script modifes the permissions of the downloads directory"
   ],
   "options": [
     {
