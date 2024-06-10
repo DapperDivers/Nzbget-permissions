@@ -26,4 +26,7 @@ Group=Media
 
 ###########################################
 
-chown -R nzbget:{Group} *
+chown -R nzbget:$Group $NZBPP_DIRECTORY
+
+echo "Modified Permissions Sucessfully"
+exit 1
