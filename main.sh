@@ -18,7 +18,7 @@
 ### OPTIONS                          ###
 
 # Group
-#
+
 # Specify the group that you'd like the files to be changed to
 Group=Media
 
