@@ -1,0 +1,52 @@
+{
+  "main": "main.sh",
+  "name": "Permissions",
+  "kind": "POST-PROCESSING",
+  "displayName": "",
+  "version": "2.0.0",
+  "nzbgetMinVersion": "23",
+  "author": "John Doe",
+  "license": "GNU",
+  "about": "Sends E-Mail notification.",
+  "queueEvents": "",
+  "taskTime": "",
+  "requirements": [
+    "This script requires Python3.8 to be installed on your system."
+  ],
+  "description": [
+    "This script sends E-Mail notification when the job is done."
+  ],
+  "options": [
+    {
+      "name": "Group",
+      "displayName": "Group",
+      "value": "Media",
+      "description": [
+        "This is the group that should own the media files"
+      ],
+      "select": []
+    }
+  ],
+  "commands": [
+    {
+      "name": "ModifyPermissions",
+      "action": "Manually change permissions",
+      "displayName": "ChangePermissions",
+      "description": [
+        "To manually modify permissions click the button."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Categories",
+      "prefix": "Category",
+      "multi": true
+    },
+    {
+      "name": "Feeds",
+      "prefix": "Feed",
+      "multi": false
+    }
+  ]
+}
