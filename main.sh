@@ -1,7 +1,6 @@
 #!/bin/sh
 
 ###########################################
-
 ### NZBGET POST-PROCESSING SCRIPT       ###
 
 # Modifies permissions for a directory
@@ -14,8 +13,8 @@
 
 # downstream processing will work.
 
-########################################
-### OPTIONS                          ###
+###########################################
+### OPTIONS                             ###
 
 # Group
 
@@ -23,11 +22,10 @@
 Group=Media
 
 ### NZBGET POST-PROCESSING SCRIPT       ###
-
 ###########################################
 
 chown -R nzbget:$Group $NZBPP_DIRECTORY
 
-echo "Modified Permissions Sucessfully"
+echo "[INFO] Modified Permissions Sucessfully"
 
 exit 1
