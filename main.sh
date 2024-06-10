@@ -28,4 +28,4 @@ chown -R nzbget:$Group $NZBPP_DIRECTORY
 
 echo "[INFO] Modified Permissions Sucessfully"
 
-exit 1
+exit 93
