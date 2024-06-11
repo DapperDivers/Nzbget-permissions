@@ -1,6 +1,7 @@
 {
   "main": "main.sh",
   "name": "Permissions",
+  "homepage": "https://github.com/DapperDivers/Nzbget-permissions",
   "kind": "POST-PROCESSING",
   "displayName": "Permissions",
   "version": "1.0.0",
@@ -9,15 +10,17 @@
   "license": "GNU",
   "about": "Modifies Permissions",
   "queueEvents": "",
-  "taskTime": "",
   "description": [
     "This script modifes the permissions of the downloads directory"
+  ],
+  "requirements": [
+    "requires linux based os"
   ],
   "options": [
     {
       "name": "Group",
       "displayName": "Group",
-      "value": "Media",
+      "value": "media",
       "description": [
         "This is the group that should own the media files"
       ],
@@ -29,21 +32,8 @@
       "name": "ModifyPermissions",
       "action": "Manually change permissions",
       "displayName": "ChangePermissions",
-      "description": [
-        "To manually modify permissions click the button."
-      ]
+      "description": "To manually modify permissions click the button."
     }
   ],
-  "sections": [
-    {
-      "name": "Categories",
-      "prefix": "Category",
-      "multi": true
-    },
-    {
-      "name": "Feeds",
-      "prefix": "Feed",
-      "multi": false
-    }
-  ]
+  "taskTime": ""
 }
